@@ -17,28 +17,28 @@
     <nav class="flex-grow mt-6">
         <ul>
             <li class="mb-2">
-                <a href="./index.php" class="flex items-center p-4 hover:bg-violet-100 hover:text-violet-600 rounded-lg mx-3
+                <a href="./index.php" class="flex items-center p-4 rounded-lg mx-3
         <?= basename($_SERVER['PHP_SELF']) == 'index.php' ? 'bg-violet-100 text-violet-900' : 'text-white' ?>">
                     <i class="fas fa-tachometer-alt mr-3"></i>
                     Dashboard
                 </a>
             </li>
             <li class="mb-2">
-                <a href="./users.php" class="flex items-center p-4 hover:bg-violet-100 hover:text-violet-600 rounded-lg mx-3
+                <a href="./users.php" class="flex items-center p-4 rounded-lg mx-3
         <?= basename($_SERVER['PHP_SELF']) == 'users.php' ? 'bg-violet-100 text-violet-600' : 'text-white' ?>">
                     <i class="fas fa-users mr-3"></i>
                     Users
                 </a>
             </li>
             <li class="mb-2">
-                <a href="./enquiries.php" class="flex items-center p-4 hover:bg-violet-100 hover:text-violet-600 rounded-lg mx-3
+                <a href="./enquiries.php" class="flex items-center p-4 rounded-lg mx-3
         <?= basename($_SERVER['PHP_SELF']) == 'enquiries.php' ? 'bg-violet-100 text-violet-600' : 'text-white' ?>">
                     <i class="fa fa-question-circle mr-3"></i>
                     Enquiries
                 </a>
             </li>
             <li class="mb-2">
-                <a href="./product.php" class="flex items-center p-4 hover:bg-violet-100 hover:text-violet-600 rounded-lg mx-3
+                <a href="./product.php" class="flex items-center p-4 rounded-lg mx-3
         <?= basename($_SERVER['PHP_SELF']) == 'product.php' ? 'bg-violet-100 text-violet-600' : 'text-white' ?>">
                     <i class="fas fa-box mr-3"></i>
                     Products
@@ -46,7 +46,7 @@
             </li>
             <!-- Use margin-top on the list item to push it down -->
             <li class="mt-40 mb-2">
-                <a href="../prectice_php/index.php" class="flex items-center p-4 hover:bg-violet-100 hover:text-violet-600 rounded-lg mx-3
+                <a href="../prectice_php/index.php" class="flex items-center p-4 rounded-lg mx-3
                 <?= basename($_SERVER['PHP_SELF']) == 'logout.php' ? 'bg-violet-100 text-violet-600' : 'text-white' ?>">
                     <i class="fas fa-sign-out-alt mr-3"></i>
                     Log Out
@@ -54,5 +54,6 @@
             </li>
         </ul>
     </nav>
+
 
 </aside>
